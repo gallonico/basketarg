@@ -1,0 +1,20 @@
+Package: DatosLNB
+Type: Package
+Title: Estadísticas de equipos y jugadores de la Liga Nacional de Básquet Argentina
+Version: 0.1.0
+Authors@R: 
+    person(given = "Nicolás",
+           family = "Gallo",
+           role = c("aut", "cre"),
+           email = "nicolasgallo98@hotmail.com")
+Description: Este paquete contiene datasets con estadísticas de los equipos 
+    y jugadores en partidos de la Liga Nacional de Básquet Argentina, correspondientes a 
+    las temporadas 2021-2022, 2022-2023 y 2023-2024. Los datos fueron 
+    obtenidos mediante web scraping y procesados para facilitar el análisis 
+    en R.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 3.0)

@@ -1,0 +1,40 @@
+#' Estadísticas de los equipos de la Liga Nacional de Básquet Argentina
+#'
+#' Dataset con información de rendimiento por equipo en cada partido.
+#'
+#' @format Un data frame con 2280 filas y 30 variables:
+#' \describe{
+#'   \item{id}{Identificador del partido (variable de soporte).}
+#'   \item{source}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+#'   \item{Equipo}{Equipo que disputó el partido.}
+#'   \item{Min}{Minutos jugados por el equipo en el partido.}
+#'   \item{2Con}{Dobles convertidos por el equipo en el partido.}
+#'   \item{2Int}{Dobles intentados por el equipo en el partido.}
+#'   \item{3Con}{Triples convertidos por el equipo en el partido.}
+#'   \item{3Int}{Triples intentados por el equipo en el partido.}
+#'   \item{FG\%}{Porcentaje de tiros de campo convertidos por el equipo en el partido.}
+#'   \item{1Con}{Tiros libres convertidos por el equipo en el partido.}
+#'   \item{1Int}{Tiros libres intentados por el equipo en el partido.}
+#'   \item{1\%}{Porcentaje de tiros libres convertidos por el equipo en el partido.}
+#'   \item{Ro}{Rebotes ofensivos ganados por el equipo en el partido.}
+#'   \item{Rd}{Rebotes defensivos ganados por el equipo en el partido.}
+#'   \item{Reb}{Rebotes totales ganados por el equipo en el partido.}
+#'   \item{Ast}{Asistencias realizadas por el equipo en el partido.}
+#'   \item{Bp}{Pérdidas de balón cometidas por el equipo en el partido.}
+#'   \item{Br}{Recuperaciones de balón realizadas por el equipo en el partido.}
+#'   \item{Tap}{Tapas realizadas por el equipo en el partido.}
+#'   \item{Fa}{Faltas personales cometidas por el equipo en el partido.}
+#'   \item{Pts}{Puntos convertidos por el equipo en el partido.}
+#'   \item{Val}{Valoración asignada al equipo en el partido.}
+#'   \item{Temp}{Temporada a la que corresponde el partido.}
+#'   \item{df}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+#'   \item{Condicion}{Condición en la que el equipo disputó el partido.}
+#'   \item{Rival}{Rival del equipo que disputó el partido.}
+#'   \item{PtsRec}{Puntos recibidos por el equipo en el partido.}
+#'   \item{Resultado}{Resultado que obtuvo el equipo en el partido.}
+#'   \item{Dif}{Diferencia de puntos en el partido entre el equipo y su rival.}
+#'   \item{Estado}{Estado y disponibilidad de los datos del partido.}
+#' }
+#'
+#' @source \href{https://www.proballers.com/es}{Proballers}
+"equipos"
