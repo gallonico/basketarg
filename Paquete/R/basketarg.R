@@ -7,6 +7,5 @@
 #' Incluye variables que describen la temporada, la condición, los resultados y el
 #' desempeño general de cada equipo y jugador en cada partido.
 #'
-#' @docType package
-#' @name basketarg
-NULL
+#' @keywords internal
+"_PACKAGE"

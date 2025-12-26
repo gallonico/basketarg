@@ -7,38 +7,38 @@
 \format{
 Un data frame con 22192 filas y 32 variables:
 \describe{
-\item{id}{Identificador del partido (variable de soporte).}
-\item{source}{Código de referencia utilizado durante el web scraping (variable de soporte).}
-\item{Jugador}{Jugador que disputó el partido.}
-\item{Min}{Minutos jugados por el jugador en el partido.}
-\item{2Con}{Dobles convertidos por el jugador en el partido.}
-\item{2Int}{Dobles intentados por el jugador en el partido.}
-\item{3Con}{Triples convertidos por el jugador en el partido.}
-\item{3Int}{Triples intentados por el jugador en el partido.}
-\item{FG\\%}{Porcentaje de tiros de campo convertidos por el jugador en el partido.}
-\item{1Con}{Tiros libres convertidos por el jugador en el partido.}
-\item{1Int}{Tiros libres intentados por el jugador en el partido.}
-\item{1\\%}{Porcentaje de tiros libres convertidos por el jugador en el partido.}
-\item{Ro}{Rebotes ofensivos ganados por el jugador en el partido.}
-\item{Rd}{Rebotes defensivos ganados por el jugador en el partido.}
-\item{Reb}{Rebotes totales ganados por el jugador en el partido.}
-\item{Ast}{Asistencias realizadas por el jugador en el partido.}
-\item{Bp}{Pérdidas de balón cometidas por el jugador en el partido.}
-\item{Br}{Recuperaciones de balón realizadas por el jugador en el partido.}
-\item{Tap}{Tapas realizadas por el jugador en el partido.}
-\item{Fa}{Faltas personales cometidas por el jugador en el partido.}
-\item{Pts}{Puntos convertidos por el jugador en el partido.}
-\item{Val}{Valoración asignada al jugador en el partido.}
-\item{Equipo}{Equipo en el que juega el jugador.}
-\item{PtsEqui}{Puntos convertidos por el equipo del jugador.}
-\item{Temp}{Temporada a la que corresponde el partido.}
-\item{df}{Código de referencia utilizado durante el web scraping (variable de soporte).}
-\item{Condicion}{Condición en la que el jugador disputó el partido.}
-\item{Rival}{Rival del jugador que disputó el partido.}
-\item{PtsRec}{Puntos recibidos por el equipo del jugador en el partido.}
-\item{Resultado}{Resultado que obtuvo el jugador en el partido.}
-\item{Dif}{Diferencia de puntos en el partido entre el equipo del jugador y su rival.}
-\item{Estado}{Estado y disponibilidad de los datos del partido.}
+\item{\code{id}}{Identificador del partido (variable de soporte).}
+\item{\code{source}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+\item{\code{Jugador}}{Jugador que disputó el partido.}
+\item{\code{Min}}{Minutos jugados por el jugador en el partido.}
+\item{\code{2Con}}{Dobles convertidos por el jugador en el partido.}
+\item{\code{2Int}}{Dobles intentados por el jugador en el partido.}
+\item{\code{3Con}}{Triples convertidos por el jugador en el partido.}
+\item{\code{3Int}}{Triples intentados por el jugador en el partido.}
+\item{\code{FG\%}}{Porcentaje de tiros de campo convertidos por el jugador en el partido.}
+\item{\code{1Con}}{Tiros libres convertidos por el jugador en el partido.}
+\item{\code{1Int}}{Tiros libres intentados por el jugador en el partido.}
+\item{\code{1\%}}{Porcentaje de tiros libres convertidos por el jugador en el partido.}
+\item{\code{Ro}}{Rebotes ofensivos ganados por el jugador en el partido.}
+\item{\code{Rd}}{Rebotes defensivos ganados por el jugador en el partido.}
+\item{\code{Reb}}{Rebotes totales ganados por el jugador en el partido.}
+\item{\code{Ast}}{Asistencias realizadas por el jugador en el partido.}
+\item{\code{Bp}}{Pérdidas de balón cometidas por el jugador en el partido.}
+\item{\code{Br}}{Recuperaciones de balón realizadas por el jugador en el partido.}
+\item{\code{Tap}}{Tapas realizadas por el jugador en el partido.}
+\item{\code{Fa}}{Faltas personales cometidas por el jugador en el partido.}
+\item{\code{Pts}}{Puntos convertidos por el jugador en el partido.}
+\item{\code{Val}}{Valoración asignada al jugador en el partido.}
+\item{\code{Equipo}}{Equipo en el que juega el jugador.}
+\item{\code{PtsEqui}}{Puntos convertidos por el equipo del jugador.}
+\item{\code{Temp}}{Temporada a la que corresponde el partido.}
+\item{\code{df}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+\item{\code{Condicion}}{Condición en la que el jugador disputó el partido.}
+\item{\code{Rival}}{Rival del jugador que disputó el partido.}
+\item{\code{PtsRec}}{Puntos recibidos por el equipo del jugador en el partido.}
+\item{\code{Resultado}}{Resultado que obtuvo el jugador en el partido.}
+\item{\code{Dif}}{Diferencia de puntos en el partido entre el equipo del jugador y su rival.}
+\item{\code{Estado}}{Estado y disponibilidad de los datos del partido.}
 }
 }
 \source{
