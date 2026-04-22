@@ -5,10 +5,9 @@
 \alias{equipos}
 \title{Estadísticas de los equipos de la Liga Nacional de Básquet Argentina}
 \format{
-Un data frame con 2280 filas y 30 variables:
+Un data frame con 2280 filas y 28 variables:
 \describe{
-\item{\code{id}}{Identificador del partido (variable de soporte).}
-\item{\code{source}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+\item{\code{id}}{Identificador único del partido. Cada valor de id aparece exactamente dos veces en el dataset, ya que cada partido se representa mediante dos filas (una por equipo).}
 \item{\code{Equipo}}{Equipo que disputó el partido.}
 \item{\code{Min}}{Minutos jugados por el equipo en el partido.}
 \item{\code{2Con}}{Dobles convertidos por el equipo en el partido.}
@@ -30,7 +29,6 @@ Un data frame con 2280 filas y 30 variables:
 \item{\code{Pts}}{Puntos convertidos por el equipo en el partido.}
 \item{\code{Val}}{Valoración asignada al equipo en el partido.}
 \item{\code{Temp}}{Temporada a la que corresponde el partido.}
-\item{\code{df}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
 \item{\code{Condicion}}{Condición en la que el equipo disputó el partido.}
 \item{\code{Rival}}{Rival del equipo que disputó el partido.}
 \item{\code{PtsRec}}{Puntos recibidos por el equipo en el partido.}
@@ -46,6 +44,6 @@ Un data frame con 2280 filas y 30 variables:
 equipos
 }
 \description{
-Dataset con información de rendimiento por equipo en cada partido.
+Dataset con información de rendimiento por equipo en cada partido. Cada partido se encuentra representado en dos filas, una por cada equipo participante, lo que permite analizar el desempeño individual de cada equipo dentro del mismo encuentro.
 }
 \keyword{datasets}

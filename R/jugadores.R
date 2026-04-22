@@ -1,11 +1,10 @@
 #' Estadísticas de los jugadores de la Liga Nacional de Básquet Argentina
 #'
-#' Dataset con información de desempeño individual por partido.
+#' Dataset con información de rendimiento por jugador en cada partido. La unidad de análisis es el jugador-partido, por lo que cada fila representa el desempeño individual de un jugador en un encuentro específico.
 #'
-#' @format Un data frame con 22192 filas y 32 variables:
+#' @format Un data frame con 22192 filas y 30 variables:
 #' \describe{
-#'   \item{\code{id}}{Identificador del partido (variable de soporte).}
-#'   \item{\code{source}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
+#'   \item{\code{id}}{Identificador único del partido.}
 #'   \item{\code{Jugador}}{Jugador que disputó el partido.}
 #'   \item{\code{Min}}{Minutos jugados por el jugador en el partido.}
 #'   \item{\code{2Con}}{Dobles convertidos por el jugador en el partido.}
@@ -29,7 +28,6 @@
 #'   \item{\code{Equipo}}{Equipo en el que juega el jugador.}
 #'   \item{\code{PtsEqui}}{Puntos convertidos por el equipo del jugador.}
 #'   \item{\code{Temp}}{Temporada a la que corresponde el partido.}
-#'   \item{\code{df}}{Código de referencia utilizado durante el web scraping (variable de soporte).}
 #'   \item{\code{Condicion}}{Condición en la que el jugador disputó el partido.}
 #'   \item{\code{Rival}}{Rival del jugador que disputó el partido.}
 #'   \item{\code{PtsRec}}{Puntos recibidos por el equipo del jugador en el partido.}

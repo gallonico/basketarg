@@ -1,0 +1,62 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# basketarg
+Estadísticas de equipos y jugadores de la Liga Nacional de Básquet Argentina.
+
+Este paquete contiene dos datasets que resumen el rendimiento de equipos y jugadores en partidos de la Liga Nacional de Básquet Argentina correspondientes a las temporadas 2021-2022, 2022-2023 y 2023-2024.
+Los datos fueron obtenidos mediante técnicas de web scraping a partir de un sitio web de estadísticas deportivas y posteriormente procesados para su análisis.
+Incluye variables que describen la temporada, la condición, los resultados y distintas métricas de desempeño para cada equipo y jugador en cada partido.
+
+## 📦 Instalación
+
+El paquete puede instalarse desde GitHub utilizando el siguiente código en R:
+
+```{r, eval = FALSE}
+install.packages("devtools")  # ejecutar solo si no está instalado
+devtools::install_github("gallonico/basketarg")
+```
+
+## ▶️ Uso
+
+Una vez instalado, el paquete se carga de la siguiente manera:
+
+```{r}
+library(basketarg)
+```
+
+El paquete incluye los siguientes datasets:
+
+- `equipos`: estadísticas a nivel equipo por partido. 
+- `jugadores`: estadísticas a nivel jugador por partido.
+
+## 📊 Ejemplo de uso
+
+A continuación se muestra cómo cargar los datasets y visualizar sus primeras observaciones:
+
+```{r}
+# Cargar los datasets
+data(equipos)
+data(jugadores)
+
+# Visualizar las primeras filas
+head(equipos)
+head(jugadores)
+```
+
+## ℹ️ Información adicional
+
+Para obtener una descripción detallada de las variables incluidas en cada dataset, se puede consultar la documentación del paquete:
+
+```{r, eval = FALSE}
+?equipos
+?jugadores
+```
